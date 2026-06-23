@@ -1,8 +1,19 @@
-# Football StatsBomb Project
+# football-statsbomb-project
 
-Mitt första projekt i fotbollsdataanalys med Python och StatsBomb Open Data.
+A Python project for exploring and analyzing football data using StatsBomb open data.
 
-## Mål
-- Hämta 5–10 matcher
-- Spara matchdata lokalt
-- Göra första analysen i notebook
+## Setup
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python src/football_statsbomb/get_competitions.py
+python src/football_statsbomb/get_matches.py
+python src/football_statsbomb/download_events.py
+```

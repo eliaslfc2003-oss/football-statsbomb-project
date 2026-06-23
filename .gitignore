@@ -1,5 +1,9 @@
 __pycache__/
-.ipynb_checkpoints/
-.venv/
 *.pyc
-data/raw_events/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+.DS_Store
